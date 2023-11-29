@@ -1,0 +1,19 @@
+{
+  "name": "sncfconnect.js",
+  "version": "1.0.0",
+  "description": "A package to access the private SNCF Connect API. Typed.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "yarn build & node dist/test.js",
+    "give": "yarn build & npm publish"
+  },
+  "keywords": ["sncf", "sncf connect", "train", "french train"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/user-agents": "^1.0.4",
+    "axios": "^1.6.2",
+    "rand-user-agent": "1.0.109"
+  }
+}
